@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Calculator</title>
+  </head>
+  <body>
+      <!-- Calculator start -->
+      <br><br><br>
+     
+    <form class="calculator">
+        <div class="wrapper">
+        <p class="res container">
+    <input type="text" class="result" id="result" value="WELCOME" readonly>
+        </p>
+    <p class="row row-1">
+        <button type="button" class="button value" onclick="getVal('1')">1</button>
+        <button type="button" class="button value" onclick="getVal('2')">2</button>
+        <button type="button" class="button value" onclick="getVal('3')">3</button>
+        <button type="button" class="button value math" onclick="getVal('*')">X</button>
+    </p>
+    <p class="row row-2">
+        <button type="button" class="button value" onclick="getVal('4')">4</button>
+        <button type="button" class="button value" onclick="getVal('5')">5</button>
+        <button type="button" class="button value" onclick="getVal('6')">6</button>
+        <button type="button" class="button value math" onclick="getVal('/')">/</button>
+    </p>
+    <p class="row row-2">
+        <button type="button" class="button value" onclick="getVal('7')">7</button>
+        <button type="button" class="button value" onclick="getVal('8')">8</button>
+        <button type="button" class="button value" onclick="getVal('9')">9</button>
+        <button type="button" class="button value math" onclick="getVal('+')">+</button>
+    </p>
+    <p class="row row-2">
+        <button type="button" class="button value clear" onclick="clearing('')">C</button>
+        <button type="button" class="button value" onclick="getVal('0')">0</button>
+        <button type="button" class="button value" onclick="getVal('.')">.</button>
+        <button type="button" class="button value math" onclick="getVal('-')">-</button>
+    </p>
+    <p class="button-total">
+        <button type="button" class="button value total delete" onclick="delet()">DEL</button>
+        <button type="button" class="button value total result" onclick="getResult()">TOTAL</button>
+    </p>
+    <p>
+        <button type="button" id="watchMode" class="button value total watch" onclick="watch()">WATCH MODE</button>
+    </p>
+    <p>
+        <button type="button" id="calcMode" class="button value total calc" onclick="calc()">CALCULATOR MODE</button>
+    </p>
+    <!-- Credit -->
+    <h3 style="color: aliceblue;">CREATED BY :</h3>
+    <div class="waving-text">
+        <span style="--i:1">L</span>
+        <span style="--i:2">E</span>
+        <span style="--i:3">O</span>
+        <span style="--i:4">N</span>
+        <span style="--i:5">A</span>
+        <span style="--i:6">R</span>
+        <span style="--i:7">D</span>
+        <span style="--i:8">O</span>
+        <span style="--i:9"> </span>
+        <span style="--i:10">T</span>
+        <span style="--i:11">A</span>
+       </div>
+       <!-- CRedit end -->
+      </div>
+    </form>
+    <!-- Calculator Ends -->
+
+
+  
+   
+
+  </body>
+</html>
